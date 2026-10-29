@@ -31,3 +31,6 @@ curl http://localhost:5000/health
 * Docker Hub Repository: https://hub.docker.com/r/nguyen236377/backend
 
 ## Hướng dẫn chạy Frontend bằng Docker
+
+## Câu 7 - Triển khai Frontend lên Render
+* **URL Frontend (web-236377):** https://web-236377...onrender.com
