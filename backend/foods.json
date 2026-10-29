@@ -1,0 +1,35 @@
+[
+  {
+    "foodId": "F01",
+    "name": "Phở Bò Tái Nạm",
+    "category": "Món chính",
+    "cuisine": "Miền Bắc",
+    "ingredients": ["Bánh phở", "Thịt bò", "Nước dùng", "Hành lá"],
+    "price": 55000,
+    "quantity": 100,
+    "description": "Phở bò truyền thống Hà Nội",
+    "imageUrl": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43"
+  },
+  {
+    "foodId": "F02",
+    "name": "Bún Chả Hà Nội",
+    "category": "Món chính",
+    "cuisine": "Miền Bắc",
+    "ingredients": ["Bún", "Thịt nướng", "Nước mắm chua ngọt"],
+    "price": 50000,
+    "quantity": 80,
+    "description": "Bún chả nướng than hoa thơm ngon",
+    "imageUrl": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+  },
+  {
+    "foodId": "F03",
+    "name": "Cơm Tấm Sườn Sợi",
+    "category": "Món chính",
+    "cuisine": "Miền Nam",
+    "ingredients": ["Gạo tấm", "Sườn nướng", "Bì", "Chả trứng"],
+    "price": 45000,
+    "quantity": 120,
+    "description": "Cơm tấm Sài Gòn mỡ hành chuẩn vị",
+    "imageUrl": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+  }
+]

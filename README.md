@@ -11,3 +11,8 @@ Dự án Quản lý món ăn - MERN Stack
   - POST /api/foods : Thêm món ăn mới (kiểm tra trùng foodId)
   - PUT /api/foods/:id : Cập nhật thông tin món ăn
   - DELETE /api/foods/:id : Xóa món ăn
+
+## Câu 2: Cấu hình MongoDB Atlas
+- Database: 236377_LeChiNguyen
+- Collection: foods
+- Dữ liệu mẫu: Khởi tạo 3 tài liệu món ăn
