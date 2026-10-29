@@ -34,3 +34,6 @@ curl http://localhost:5000/health
 
 ## Câu 7 - Triển khai Frontend lên Render
 * **URL Frontend (web-236377):** https://web-236377...onrender.com
+
+## Câu 8 - Triển khai Backend API lên Render
+* **Backend URL:** https://api-236377.onrender.com

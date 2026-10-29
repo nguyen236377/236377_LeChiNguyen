@@ -2,7 +2,15 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Search, Plus, Trash2, Edit, Eye, RefreshCw, Utensils } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/foods';
+// Tự động nhận diện đường dẫn Backend khi chạy trên Codespaces hoặc Localhost
+const getApiUrl = () => {
+  if (typeof window !== 'undefined' && window.location.hostname.includes('github.dev')) {
+    return `${window.location.protocol}//${window.location.hostname.replace('-5173', '-5000')}/api/foods`;
+  }
+ return 'https://api-236377.onrender.com/api/foods';
+};
+
+const API_URL = getApiUrl();
 
 export default function App() {
   const [foods, setFoods] = useState([]);
